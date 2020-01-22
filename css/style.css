@@ -571,6 +571,8 @@ header .jumbotron .mobile_box img {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  -webkit-animation: slide_lower 18s infinite ease-in;
+          animation: slide_lower 18s infinite ease-in;
 }
 
 .gallery .gallery_box .wrapper_gallery .visible_boxes_lower .lower_box_one > h3 {
@@ -705,6 +707,48 @@ header .jumbotron .mobile_box img {
   }
   100% {
     background-image: url(../images/foto2.png);
+  }
+}
+
+@-webkit-keyframes slide_lower {
+  0% {
+    background-image: url(../images/foto4.png);
+  }
+  20% {
+    background-image: url(../images/foto4.png);
+  }
+  40% {
+    background-image: url(../images/foto3.png);
+  }
+  60% {
+    background-image: url(../images/foto3.png);
+  }
+  80% {
+    background-image: url(../images/foto3.png);
+  }
+  100% {
+    background-image: url(../images/foto4.png);
+  }
+}
+
+@keyframes slide_lower {
+  0% {
+    background-image: url(../images/foto4.png);
+  }
+  20% {
+    background-image: url(../images/foto4.png);
+  }
+  40% {
+    background-image: url(../images/foto3.png);
+  }
+  60% {
+    background-image: url(../images/foto3.png);
+  }
+  80% {
+    background-image: url(../images/foto3.png);
+  }
+  100% {
+    background-image: url(../images/foto4.png);
   }
 }
 /*# sourceMappingURL=style.css.map */

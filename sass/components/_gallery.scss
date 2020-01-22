@@ -348,6 +348,7 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     color: rgb(255, 255, 255);
+                    animation: slide_lower 18s infinite ease-in;
 
                     >h3 {
                         font-size: 25px;
@@ -444,24 +445,7 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// animation
 
 @keyframes slide_upper {
     0% {
@@ -486,5 +470,32 @@
 
     100% {
         background-image: url(../images/foto2.png);
+    }
+}
+
+
+@keyframes slide_lower {
+    0% {
+        background-image: url(../images/foto4.png);
+    }
+
+    20% {
+        background-image: url(../images/foto4.png);
+    }
+
+    40% {
+        background-image: url(../images/foto3.png);
+    }
+
+    60% {
+        background-image: url(../images/foto3.png);
+    }
+
+    80% {
+        background-image: url(../images/foto3.png);
+    }
+
+    100% {
+        background-image: url(../images/foto4.png);
     }
 }
