@@ -1,38 +1,36 @@
 .something_new {
+    color: rgb(170, 170, 170);
 
+    .paragraph_one {
+        margin-top: 60px;
+        line-height: 1.2;
 
-    .something_box {
-        color: rgb(190, 190, 190);
-
-        .paragraph_one {
-            margin-top: 60px;
-            line-height: 1.2;
-
-            >h2 {
-                font-size: 35px;
-                font-weight: 300;
-            }
-
-            p:nth-of-type(1) {
-                padding-top: 22px;
-            }
-
-            p:nth-of-type(2) {
-                padding-top: 25px;
-            }
-
-            p:nth-of-type(3) {
-                padding-top: 25px;
-            }
+        >h2 {
+            font-size: 35px;
+            font-weight: 300;
         }
 
-        .paragraph_two {
-            margin-top: 180px;
+        p:nth-of-type(1) {
+            padding-top: 22px;
+        }
 
-            p:nth-child(2) {
-                margin-top: 20px;
-            }
+        p:nth-of-type(2) {
+            padding-top: 25px;
+        }
 
+        p:nth-of-type(3) {
+            padding-top: 25px;
         }
     }
+
+    .paragraph_two {
+        margin-top: 180px;
+
+
+        p:nth-child(2) {
+            margin-top: 20px;
+        }
+
+    }
+
 }

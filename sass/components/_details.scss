@@ -1,0 +1,57 @@
+.details {
+    position: relative;
+    color: rgb(170, 170, 170);
+    padding-bottom: 55px;
+
+    .side_text {
+        position: absolute;
+        left: 26px;
+        top: 70px;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .col-6 {
+        >h2 {
+            font-size: 35px;
+            font-weight: 300;
+        }
+    }
+
+    .col-3 {
+        >h3 {
+            font-weight: 700;
+            padding-bottom: 22px;
+            padding-top: 10px;
+        }
+
+        >p {
+            line-height: 1.5;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

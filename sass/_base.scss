@@ -27,7 +27,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -87,6 +87,7 @@ body {
     float: left;
     min-height: 1px;
     height: 280px;
+
 }
 
 .box-col-1 {
@@ -95,8 +96,4 @@ body {
 
 .box-col-2 {
     width: 66.66%;
-}
-
-.box-col-3 {
-    width: 100%;
 }
