@@ -17,8 +17,7 @@
 
     .col-6 {
         >h2 {
-            font-size: 35px;
-            font-weight: 300;
+            @include headline;
             padding-bottom: 15px;
         }
     }

@@ -31,13 +31,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 35px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);
@@ -75,13 +69,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 35px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);
@@ -123,13 +111,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 35px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);
@@ -176,23 +158,7 @@
         }
 
         .more_box_upper {
-            position: absolute;
-            background-color: rgba(20, 19, 19, 0.6);
-            height: 280px;
-            left: calc(100% - 39px);
-            z-index: 2;
-            color: rgba(255, 255, 255, 0.6);
-            writing-mode: vertical-lr;
-            text-orientation: upright;
-            width: 40px;
-            text-align: center;
-            font-weight: 700;
-            line-height: 40px;
-            border-top-left-radius: 35%;
-            border-bottom-left-radius: 35%;
-            opacity: 1;
-            cursor: pointer;
-            transition: 0.8s ease-in-out;
+            @include more-box;
         }
 
         .outside_box_upper {
@@ -217,13 +183,7 @@
             }
 
             >a {
-                text-decoration: none;
-                color: $color-base-white;
-                padding: 25px 10px;
-                font-weight: 700;
-                display: inline-block;
-                letter-spacing: 0.8px;
-                transition: .2s;
+                @include btn-arrow;
 
                 >img {
                     max-width: 100%;
@@ -257,23 +217,7 @@
             }
 
             .more_box_lower {
-                position: absolute;
-                background-color: rgba(20, 19, 19, 0.6);
-                height: 280px;
-                left: calc(100% - 39px);
-                z-index: 3;
-                color: rgba(255, 255, 255, 0.6);
-                writing-mode: vertical-lr;
-                text-orientation: upright;
-                width: 40px;
-                text-align: center;
-                font-weight: 700;
-                line-height: 40px;
-                border-top-left-radius: 35%;
-                border-bottom-left-radius: 35%;
-                opacity: 2;
-                cursor: pointer;
-                transition: 0.8s ease-in-out;
+                @include more-box;
             }
 
             .outside_box_lower {
@@ -303,13 +247,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 38px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);
@@ -365,13 +303,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 38px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);
@@ -416,13 +348,7 @@
                 }
 
                 >a {
-                    text-decoration: none;
-                    color: $color-base-white;
-                    padding: 35px 10px;
-                    font-weight: 700;
-                    display: inline-block;
-                    letter-spacing: 0.8px;
-                    transition: .2s;
+                    @include btn-arrow;
 
                     &:hover {
                         transform: scale(1.1);

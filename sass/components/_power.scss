@@ -26,12 +26,8 @@
         }
 
         a {
-            text-decoration: none;
-            color: $color-base-white;
-            font-weight: 700;
-            display: inline-block;
-            letter-spacing: 0.8px;
-            transition: .2s;
+            @include btn-arrow;
+            margin-left: -8px;
 
             >img {
                 max-width: 100%;

@@ -6,8 +6,7 @@
         line-height: 1.2;
 
         >h2 {
-            font-size: 35px;
-            font-weight: 300;
+            @include headline;
         }
 
         p:nth-of-type(1) {

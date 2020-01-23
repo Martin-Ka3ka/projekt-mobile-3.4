@@ -11,8 +11,7 @@
         transform: rotate(-90deg);
         font-size: 12px;
         font-weight: 700;
-        color: #aaaaaa;
-
+        color: $color-base-gray;
     }
 
     .price_left {
@@ -20,7 +19,6 @@
         transition: all .4s ease-in;
         margin: 0 auto;
         padding: 20px 0 10px 20px;
-
 
         >div {
             width: 80px;
@@ -34,8 +32,6 @@
             border-radius: 5px;
             margin-bottom: 12px;
             transition: .5s;
-
-
         }
 
         h2 {
@@ -60,7 +56,6 @@
             line-height: 60px;
             letter-spacing: 1px;
             margin-top: 25px;
-
         }
 
         div:nth-of-type(3) {
@@ -165,7 +160,5 @@
         &:hover div:nth-of-type(2) {
             background-color: $color-hover-green;
         }
-
     }
-
 }

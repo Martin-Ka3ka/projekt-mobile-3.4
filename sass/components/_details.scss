@@ -1,6 +1,6 @@
 .details {
     position: relative;
-    color: rgb(170, 170, 170);
+    color: $color-base-gray;
     padding-bottom: 55px;
 
     .side_text {
@@ -16,8 +16,7 @@
 
     .col-6 {
         >h2 {
-            font-size: 35px;
-            font-weight: 300;
+            @include headline;
         }
     }
 

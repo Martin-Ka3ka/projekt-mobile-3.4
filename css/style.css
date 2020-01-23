@@ -384,7 +384,7 @@ header .mobile_box img {
   background-color: rgba(20, 19, 19, 0.6);
   height: 280px;
   left: calc(100% - 39px);
-  z-index: 2;
+  z-index: 3;
   color: rgba(255, 255, 255, 0.6);
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
@@ -396,7 +396,7 @@ header .mobile_box img {
   line-height: 40px;
   border-top-left-radius: 35%;
   border-bottom-left-radius: 35%;
-  opacity: 1;
+  opacity: 2;
   cursor: pointer;
   -webkit-transition: 0.8s ease-in-out;
   transition: 0.8s ease-in-out;
@@ -428,7 +428,7 @@ header .mobile_box img {
 .gallery .wrapper_gallery .outside_box_upper > a {
   text-decoration: none;
   color: white;
-  padding: 25px 10px;
+  padding: 35px 10px;
   font-weight: 700;
   display: inline-block;
   letter-spacing: 0.8px;
@@ -524,7 +524,7 @@ header .mobile_box img {
 .gallery .wrapper_gallery .extras_box_lower .outside_box_lower > a {
   text-decoration: none;
   color: white;
-  padding: 38px 10px;
+  padding: 35px 10px;
   font-weight: 700;
   display: inline-block;
   letter-spacing: 0.8px;
@@ -589,7 +589,7 @@ header .mobile_box img {
 .gallery .wrapper_gallery .visible_boxes_lower .lower_box_one > a {
   text-decoration: none;
   color: white;
-  padding: 38px 10px;
+  padding: 35px 10px;
   font-weight: 700;
   display: inline-block;
   letter-spacing: 0.8px;
@@ -814,11 +814,13 @@ header .mobile_box img {
 .power .power_header a {
   text-decoration: none;
   color: white;
+  padding: 35px 10px;
   font-weight: 700;
   display: inline-block;
   letter-spacing: 0.8px;
   -webkit-transition: .2s;
   transition: .2s;
+  margin-left: -8px;
 }
 
 .power .power_header a > img {
