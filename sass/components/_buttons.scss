@@ -1,3 +1,163 @@
 .buttons {
-    height: 100vh;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    .side_text {
+        position: absolute;
+        left: 35px;
+        top: 8vh;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+        font-size: 12px;
+        font-weight: 700;
+        color: #aaaaaa;
+
+    }
+
+    .price_left {
+        width: 80%;
+        transition: all .4s ease-in;
+        margin: 0 auto;
+        padding: 20px 0 10px 20px;
+
+
+        >div {
+            width: 80px;
+            height: 27px;
+            background-color: #aaaaaa;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 27px;
+            font-weight: 600;
+            border-radius: 5px;
+            margin-bottom: 12px;
+            transition: .5s;
+
+
+        }
+
+        h2 {
+            font-size: 34px;
+            font-weight: 400;
+            color: #aaaaaa;
+        }
+
+        p {
+            color: #aaaaaa;
+            line-height: 1.8;
+            margin-top: 12px;
+            width: 80%;
+        }
+
+        div:nth-of-type(2) {
+            background-color: rgb(130, 202, 156);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            width: 150px;
+            height: 60px;
+            line-height: 60px;
+            letter-spacing: 1px;
+            margin-top: 25px;
+
+        }
+
+        div:nth-of-type(3) {
+            background-color: transparent;
+            padding-top: 10px;
+            margin-right: 5px;
+
+            >a {
+                margin-right: 10px;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        &:hover {
+            transform: scale(1.2);
+            box-shadow: 1px 1px 130px #ddd;
+        }
+
+        &:hover .btn_left {
+            background-color: rgb(189, 140, 191);
+        }
+
+    }
+
+    .price_right {
+        width: 80%;
+        transition: all .4s ease-in;
+        margin: 0 auto;
+        padding: 20px 0 10px 20px;
+
+        >div {
+            width: 148px;
+            height: 27px;
+            background-color: #aaaaaa;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 27px;
+            font-weight: 600;
+            border-radius: 5px;
+            margin-bottom: 12px;
+            transition: .5s;
+        }
+
+        h2 {
+            color: #aaaaaa;
+            font-size: 34px;
+            font-weight: 400;
+        }
+
+        p {
+            color: #aaaaaa;
+            line-height: 1.8;
+            margin-top: 12px;
+            width: 80%;
+        }
+
+        div:nth-of-type(2) {
+            background-color: rgb(130, 202, 156);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            width: 150px;
+            height: 60px;
+            line-height: 60px;
+            letter-spacing: 1px;
+            margin-top: 25px;
+
+        }
+
+        div:nth-of-type(3) {
+            background-color: transparent;
+            padding-top: 10px;
+            padding-right: 64px;
+
+            >a {
+                margin-right: 10px;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        &:hover {
+            transform: scale(1.2);
+            box-shadow: 1px 1px 130px #ddd;
+        }
+
+        &:hover .btn_right {
+            background-color: rgb(189, 140, 191);
+        }
+
+    }
+
 }
