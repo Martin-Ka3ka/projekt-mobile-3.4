@@ -1,6 +1,6 @@
 footer {
     background-color: rgb(25, 36, 49);
-    color: rgb(255, 255, 255);
+    color: $color-base-white;
     padding-top: 70px;
     padding-bottom: 20px;
 
@@ -46,7 +46,7 @@ footer {
                 width: 400px;
 
                 &:focus {
-                    border: 3px solid rgb(130, 202, 156);
+                    border: 3px solid $color-base-green;
                 }
 
             }
@@ -55,8 +55,8 @@ footer {
                 border: none;
                 height: 65px;
                 width: 65px;
-                background-color: rgb(130, 202, 156);
-                color: rgb(255, 255, 255);
+                background-color: $color-base-green;
+                color: $color-base-white;
                 font-size: 27px;
                 outline: none;
                 transition: .4s;
@@ -67,32 +67,22 @@ footer {
                 }
 
                 &:hover {
-                    background-color: rgb(28, 151, 73);
+                    background-color: $color-hover-green;
                 }
 
                 &:hover>span {
                     transform: rotate(360deg);
                 }
+
             }
         }
 
         p {
-            color: gray;
+            color: $color-base-gray;
             width: 65%;
             font-size: 12px;
             margin-top: 20px;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -4,8 +4,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin-top: 60px;
-    color: rgb(255, 255, 255);
+    color: $color-base-white;
 
     .power_header {
         margin-top: 430px;
@@ -26,7 +27,7 @@
 
         a {
             text-decoration: none;
-            color: rgb(255, 255, 255);
+            color: $color-base-white;
             font-weight: 700;
             display: inline-block;
             letter-spacing: 0.8px;

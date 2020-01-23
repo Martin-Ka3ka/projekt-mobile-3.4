@@ -25,8 +25,8 @@
         >div {
             width: 80px;
             height: 27px;
-            background-color: #aaaaaa;
-            color: rgb(255, 255, 255);
+            background-color: $color-base-gray;
+            color: $color-base-white;
             text-transform: uppercase;
             text-align: center;
             line-height: 27px;
@@ -41,19 +41,19 @@
         h2 {
             font-size: 34px;
             font-weight: 400;
-            color: #aaaaaa;
+            color: $color-base-gray;
         }
 
         p {
-            color: #aaaaaa;
+            color: $color-base-gray;
             line-height: 1.8;
             margin-top: 12px;
             width: 80%;
         }
 
         div:nth-of-type(2) {
-            background-color: rgb(130, 202, 156);
-            color: rgb(255, 255, 255);
+            background-color: $color-base-green;
+            color: $color-base-white;
             text-align: center;
             width: 150px;
             height: 60px;
@@ -80,11 +80,15 @@
 
         &:hover {
             transform: scale(1.2);
-            box-shadow: 1px 1px 130px #ddd;
+            box-shadow: 1px 1px 130px $color-base-gray;
         }
 
         &:hover .btn_left {
-            background-color: rgb(189, 140, 191);
+            background-color: $color-base-violet;
+        }
+
+        &:hover div:nth-of-type(2) {
+            background-color: $color-hover-green;
         }
 
     }
@@ -98,8 +102,8 @@
         >div {
             width: 148px;
             height: 27px;
-            background-color: #aaaaaa;
-            color: rgb(255, 255, 255);
+            background-color: $color-base-gray;
+            color: $color-base-white;
             text-transform: uppercase;
             text-align: center;
             line-height: 27px;
@@ -110,21 +114,21 @@
         }
 
         h2 {
-            color: #aaaaaa;
+            color: $color-base-gray;
             font-size: 34px;
             font-weight: 400;
         }
 
         p {
-            color: #aaaaaa;
+            color: $color-base-gray;
             line-height: 1.8;
             margin-top: 12px;
             width: 80%;
         }
 
         div:nth-of-type(2) {
-            background-color: rgb(130, 202, 156);
-            color: rgb(255, 255, 255);
+            background-color: $color-base-green;
+            color: $color-base-white;
             text-align: center;
             width: 150px;
             height: 60px;
@@ -151,11 +155,15 @@
 
         &:hover {
             transform: scale(1.2);
-            box-shadow: 1px 1px 130px #ddd;
+            box-shadow: 1px 1px 130px $color-base-gray;
         }
 
         &:hover .btn_right {
-            background-color: rgb(189, 140, 191);
+            background-color: $color-base-violet;
+        }
+
+        &:hover div:nth-of-type(2) {
+            background-color: $color-hover-green;
         }
 
     }

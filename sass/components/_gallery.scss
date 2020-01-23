@@ -15,7 +15,7 @@
 
             .upper_box_one {
                 background-color: rgb(245, 152, 157);
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
 
                 >h3 {
                     font-size: 25px;
@@ -32,7 +32,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 35px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -53,13 +53,13 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
 
             .upper_box_two {
                 background-color: rgb(97, 95, 125);
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
 
                 >h3 {
                     font-size: 25px;
@@ -76,7 +76,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 35px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -96,7 +96,7 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
 
@@ -105,7 +105,7 @@
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
                 animation: slide_upper 18s infinite ease-in;
 
                 >h3 {
@@ -124,7 +124,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 35px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -152,7 +152,7 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
         }
@@ -197,11 +197,11 @@
 
         .outside_box_upper {
             position: absolute;
-            background-color: rgb(189, 140, 191);
+            background-color: $color-base-violet;
             top: 0;
             left: 100%;
             transition: 0.8s ease-in-out;
-            color: rgb(255, 255, 255);
+            color: $color-base-white;
 
             >h3 {
                 font-size: 25px;
@@ -218,7 +218,7 @@
 
             >a {
                 text-decoration: none;
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
                 padding: 25px 10px;
                 font-weight: 700;
                 display: inline-block;
@@ -237,7 +237,7 @@
             }
 
             &:hover {
-                box-shadow: 0 0 5px 2px #fff inset;
+                box-shadow: 0 0 5px 2px $color-base-white inset;
             }
         }
 
@@ -285,7 +285,7 @@
                 top: 0;
                 left: 100%;
                 z-index: 2;
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
                 transition: .8s ease-in-out, box-shadow 0s;
 
                 >h3 {
@@ -304,7 +304,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 38px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -331,7 +331,7 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
         }
@@ -347,7 +347,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                color: rgb(255, 255, 255);
+                color: $color-base-white;
                 animation: slide_lower 18s infinite ease-in;
 
                 >h3 {
@@ -366,7 +366,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 38px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -393,13 +393,13 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
 
             .lower_box_two {
-                background-color: rgb(130, 202, 156);
-                color: rgb(255, 255, 255);
+                background-color: $color-base-green;
+                color: $color-base-white;
 
                 >h3 {
                     font-size: 25px;
@@ -417,7 +417,7 @@
 
                 >a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-base-white;
                     padding: 35px 10px;
                     font-weight: 700;
                     display: inline-block;
@@ -437,7 +437,7 @@
                 }
 
                 &:hover {
-                    box-shadow: 0 0 5px 3px #fff inset;
+                    box-shadow: 0 0 5px 3px $color-base-white inset;
                 }
             }
         }
