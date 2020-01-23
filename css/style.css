@@ -105,13 +105,15 @@ header {
 
 header .side_text {
   position: absolute;
-  left: -15px;
-  top: 55vh;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  color: white;
   font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  left: -15px;
+  top: 55vh;
+  color: white;
 }
 
 header .side_text span:nth-child(1) {
@@ -757,13 +759,14 @@ header .mobile_box img {
 
 .details .side_text {
   position: absolute;
-  left: 26px;
-  top: 70px;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   font-size: 12px;
   letter-spacing: 1px;
+  font-weight: 700;
+  left: 26px;
+  top: 70px;
   font-weight: 700;
 }
 
@@ -844,13 +847,14 @@ header .mobile_box img {
 
 .reasons .side_text {
   position: absolute;
-  left: 35px;
-  top: 15vh;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   font-size: 12px;
+  letter-spacing: 1px;
   font-weight: 700;
+  left: 35px;
+  top: 15vh;
 }
 
 .reasons .col-6 > h2 {
@@ -877,13 +881,14 @@ header .mobile_box img {
 
 .buttons .side_text {
   position: absolute;
-  left: 35px;
-  top: 8vh;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   font-size: 12px;
+  letter-spacing: 1px;
   font-weight: 700;
+  left: 35px;
+  top: 8vh;
   color: #aaaaaa;
 }
 

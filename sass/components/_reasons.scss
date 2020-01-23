@@ -6,13 +6,10 @@
     padding-bottom: 80px;
 
     .side_text {
-        position: absolute;
+        @include side-text;
         left: 35px;
         top: 15vh;
-        text-transform: uppercase;
-        transform: rotate(-90deg);
-        font-size: 12px;
-        font-weight: 700;
+
     }
 
     .col-6 {

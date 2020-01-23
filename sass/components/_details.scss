@@ -4,13 +4,9 @@
     padding-bottom: 55px;
 
     .side_text {
-        position: absolute;
+        @include side-text;
         left: 26px;
         top: 70px;
-        text-transform: uppercase;
-        transform: rotate(-90deg);
-        font-size: 12px;
-        letter-spacing: 1px;
         font-weight: 700;
     }
 

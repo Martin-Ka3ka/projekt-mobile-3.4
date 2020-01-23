@@ -7,13 +7,10 @@ header {
     position: relative;
 
     .side_text {
-        position: absolute;
+        @include side-text;
         left: -15px;
         top: 55vh;
-        text-transform: uppercase;
-        transform: rotate(-90deg);
         color: $color-base-white;
-        font-size: 12px;
 
         span:nth-child(1) {
             letter-spacing: 1px;

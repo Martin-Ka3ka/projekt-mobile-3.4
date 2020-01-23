@@ -46,6 +46,15 @@ $color-footer-background:rgb(25, 36, 49);
     transition: 0.8s ease-in-out;
 }
 
+@mixin side-text {
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
 
 
 // fonts

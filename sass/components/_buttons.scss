@@ -4,13 +4,9 @@
     margin-bottom: 90px;
 
     .side_text {
-        position: absolute;
+        @include side-text;
         left: 35px;
         top: 8vh;
-        text-transform: uppercase;
-        transform: rotate(-90deg);
-        font-size: 12px;
-        font-weight: 700;
         color: $color-base-gray;
     }
 
